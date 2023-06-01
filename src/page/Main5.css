@@ -1,0 +1,66 @@
+.Menu-body{
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding-left: 50px;
+    font-family: "Jost";
+}
+.Menu{
+    top: 150px;
+    margin-left: 544px;
+    position: absolute;
+}
+.teg{
+    width: 50px;
+    height: 70px;
+    background-color: #f2f4fa;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 67, 116);
+    border-radius: 10px;
+}
+.teg i{
+    margin-bottom: -20px;
+    display: flex;
+    padding-right: 5px;
+}
+.teg span{
+    margin-left: 5px;
+    /* position:absolute; */
+}
+.tags h1{
+    font-size: 20px;
+    color: rgb(58, 67, 116);
+}
+.tags > p{
+    font-size: 15px;
+    color: #647196;
+}
+.Naun{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f2f4fa;
+    width: 150px;
+    text-align: center;
+    color: royalblue;
+}
+.commints{
+    margin-left: 200px;
+}
+.commints i{
+    color: #647196;
+    font-size: 20px !important;
+    display: inline;
+}
+.commints p{
+    display: inline;
+    margin-left: 5px;
+    font-size: 20px;
+}
